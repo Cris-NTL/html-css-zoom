@@ -1,0 +1,103 @@
+/* RESET */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+/* /RESET */
+
+/* UTILITY */
+/* <i class="fa-solid fa-table-cells"></i>
+<i class="fa-solid fa-maximize"></i>
+<i class="fa-solid fa-microphone"></i>
+<i class="fa-solid fa-angle-up"></i>
+<i class="fa-solid fa-video"></i>
+<i class="fa-solid fa-user-plus"></i>
+<i class="fa-solid fa-user-group"></i>
+<i class="fa-solid fa-chart-column"></i>
+<i class="fa-solid fa-share-from-square"></i>
+<i class="fa-solid fa-comment"></i>
+<i class="fa-solid fa-record-vinyl"></i>
+<i class="fa-solid fa-table-cells-large"></i>
+<i class="fa-solid fa-ellipsis"></i> */
+
+:root{
+    --border:1px solid white;
+    --grey:#222222;
+    --lightgrey:#4E4E4E;
+    --green:#4CCA00;
+}
+/* /UTILITY */
+
+/* COMMON */
+body {
+    background-color: black;
+}
+/* /COMMON */
+
+/* HEADER */
+.buttons {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0px 50px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 20px;
+    color:white;
+}
+
+.buttons div {
+    background-color: var(--lightgrey);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* /HEADER */
+
+/* MAIN */
+section>.container {
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    
+    
+}
+
+.speaker i {
+    padding-right: 10px;
+}
+
+section>.central-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 5px;
+}
+
+.monitor {
+    position: relative;
+    width: calc(100% / 7 - 5px);
+}
+
+.monitor>span {
+    position: absolute;
+    top: 84%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    
+}
+
+/* /MAIN */
+
+/* FOOTER */
+/* /FOOTER */
